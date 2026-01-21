@@ -1,0 +1,60 @@
+name: Run Dify Workflow Daily
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # 每天 UTC 08:00 运行（≈ 洛杉矶 00:00 PST）
+    - cron: "0 8 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dify-aipm-daily
+  cancel-in-progress: false
+
+jobs:
+  run-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Dify sync
+        env:
+          # ✅ 从 GitHub Secrets 注入，不要写死
+          DIFY_API_KEY: ${{ secrets.DIFY_API_KEY }}
+          # 可选：传给 Dify 的 user 字段（你可以保持默认）
+          DIFY_USER: github-action
+          # 可选：如果你的 Workflow Start 节点有必填 inputs，在这里提供 JSON
+          # 例如：{"city":"LA","lang":"zh"}
+          DIFY_INPUTS_JSON: "{}"
+          # 可选：等待/轮询配置
+          DIFY_MAX_WAIT_SEC: "900"
+          DIFY_POLL_INTERVAL_SEC: "3"
+        run: |
+          python sync_dify.py
+
+      - name: Commit and push changes (if any)
+        run: |
+          git status --porcelain
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md reports || true
+            git commit -m "chore: update daily AIPM report"
+            git push
+          else
+            echo "No changes to commit."
+          fi
