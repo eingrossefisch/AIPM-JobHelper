@@ -1,41 +1,17 @@
-# -*- coding: utf-8 -*-
-"""
-sync_dify.py
-------------------------------------------------------------
-用途：
-1) 通过 Dify Workflow Run API 触发一个 Workflow（使用 streaming 避免 blocking 超时）
-2) 轮询查询 workflow_run_id 的执行结果，直到 succeeded/failed/stopped
-3) 从 outputs 中提取 Markdown 文本，保存到：
-   - reports/YYYY-MM-DD.md
-   - README.md（覆盖更新）
-
-安全性：
-- 不在代码中硬编码 API Key
-- 通过环境变量 DIFY_API_KEY 读取（本地可临时 set，GitHub Actions 用 Secrets 注入）
-
-环境变量（必需/可选）：
-- 必需：
-  - DIFY_API_KEY: Dify 应用的 API Key（以 app- 开头）
-- 可选：
-  - DIFY_USER: 传给 Dify 的 user 字段（默认 github-action）
-  - DIFY_INPUTS_JSON: Workflow inputs 的 JSON 字符串（默认 {}）
-  - DIFY_MAX_WAIT_SEC: 最长等待秒数（默认 900）
-  - DIFY_POLL_INTERVAL_SEC: 轮询间隔秒数（默认 3）
-------------------------------------------------------------
-"""
-
 import os
 import json
 import time
 import datetime
+import re
 import requests
 
 
-# -----------------------------
-# Dify API endpoints（Cloud）
-# -----------------------------
+from zoneinfo import ZoneInfo
+
 DIFY_RUN_URL = "https://api.dify.ai/v1/workflows/run"
 DIFY_DETAIL_URL = "https://api.dify.ai/v1/workflows/run/{workflow_run_id}"
+
+LA_TZ = ZoneInfo("America/Los_Angeles")
 
 
 def env(name: str, default: str = "") -> str:
@@ -67,10 +43,6 @@ def parse_inputs_json(raw: str) -> dict:
 
 
 def start_workflow_streaming(session: requests.Session, api_key: str, inputs: dict, user: str) -> str:
-    """
-    用 streaming 启动 workflow，尽快拿到 workflow_run_id。
-    这样不会卡在 blocking 模式的 Cloudflare 超时里。
-    """
     payload = {
         "inputs": inputs or {},
         "response_mode": "streaming",
@@ -210,26 +182,54 @@ def get_outputs_raw(detail_payload: dict):
     return ""
 
 
+# ✅ 修复 #1：以洛杉矶时区拿“当天日期”，避免 Actions 写成明天
+def get_today_str() -> str:
+    return datetime.datetime.now(LA_TZ).strftime("%Y-%m-%d")
+
+
+# ✅ 加固：把正文里可能出现的日期也统一为今天，避免手动多次运行出现“明天”
+def normalize_date_in_text(text: str, today: str) -> str:
+    if not text:
+        return text
+
+    # 1) 替换 (PDT: yyyy-mm-dd) / (PST: yyyy-mm-dd)
+    text = re.sub(r"\((PDT|PST)\s*:\s*\d{4}-\d{2}-\d{2}\)", rf"(\1: {today})", text)
+
+    # 2) 替换 “最后更新: yyyy-mm-dd”
+    text = re.sub(r"(最后更新\s*:\s*)\d{4}-\d{2}-\d{2}", rf"\1{today}", text)
+
+    return text
+
+
 def save_report(text: str):
     """
     保存报告：
     - reports/YYYY-MM-DD.md
     - README.md（覆盖）
+    规则：
+    ✅ 每天只允许一个 md 文件；重复运行就覆盖同一天的文件
+    ✅ 日期按 America/Los_Angeles 计算（避免 Actions 默认 UTC）
     """
     text = (text or "").strip()
     if not text:
         print("❌ 内容为空，不保存。")
         return
 
-    today = datetime.datetime.now().strftime("%Y-%m-%d")
+    # ✅ 修复 #1：真实当天日期（LA时区）
+    today = get_today_str()
+
+    # ✅ 加固：避免 Dify 输出里自带日期写错（例如写成明天）
+    text = normalize_date_in_text(text, today)
+
     os.makedirs("reports", exist_ok=True)
 
+    # ✅ 同一天永远只写一个文件，重复运行覆盖
     report_path = os.path.join("reports", f"{today}.md")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(text)
 
+    # ✅ 修复 #2：README 不额外加 header，text 本身已包含 header
     with open("README.md", "w", encoding="utf-8") as f:
-        # header = f"# 🚀 2026 AIPM 暑期实习求职小助手\n\n> 📅 最后更新: {today}\n\n---\n\n"
         f.write(text)
 
     print(f"✅ 保存成功：{report_path}")
@@ -237,10 +237,11 @@ def save_report(text: str):
 
 
 def main():
-    # 1) 从环境变量读取关键配置（GitHub Actions 用 Secrets 注入 DIFY_API_KEY）
     api_key = env("DIFY_API_KEY")
+
     if not api_key:
-        raise RuntimeError("❌ Missing DIFY_API_KEY. Please set it as env var / GitHub Secret.")
+        raise RuntimeError("❌ DIFY_API_KEY 为空：请输入或设置环境变量 DIFY_API_KEY。")
+
 
     user = env("DIFY_USER", "github-action")
     inputs = parse_inputs_json(env("DIFY_INPUTS_JSON", ""))
