@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AIPM JobHelper</title>
+  <style>
+    :root{--bg:#0b0f14;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--link:#60a5fa;--border:rgba(255,255,255,.12);--code:rgba(255,255,255,.08);--chip:rgba(255,255,255,.06)}
+    @media (prefers-color-scheme: light){:root{--bg:#f6f7fb;--card:#fff;--text:#111827;--muted:#6b7280;--link:#2563eb;--border:rgba(17,24,39,.12);--code:rgba(17,24,39,.06);--chip:rgba(17,24,39,.05)}}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.65}
+    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    .topbar{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:14px 16px;border:1px solid var(--border);border-radius:16px;background:var(--card);position:sticky;top:14px;backdrop-filter:blur(8px);z-index:10}
+    .brand{font-weight:700;letter-spacing:.2px}
+    .meta{color:var(--muted);font-size:14px}
+    a{color:var(--link);text-decoration:none} a:hover{text-decoration:underline}
+    .grid{display:grid;grid-template-columns:320px 1fr;gap:18px;margin-top:18px}
+    @media (max-width: 900px){.grid{grid-template-columns:1fr}}
+    .card{padding:18px;border:1px solid var(--border);border-radius:18px;background:var(--card);box-shadow:0 12px 28px rgba(0,0,0,.18)}
+    h1,h2,h3{line-height:1.25} h1{font-size:26px;margin:0 0 12px} h2{font-size:18px;margin:14px 0 10px} h3{font-size:16px;margin:12px 0 8px}
+    code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;background:var(--code);border-radius:10px}
+    code{padding:2px 6px} pre{padding:14px 16px;overflow:auto}
+    table{width:100%;border-collapse:collapse;border-radius:14px;overflow:hidden;border:1px solid var(--border);margin:14px 0}
+    th,td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+    th{text-align:left;color:var(--muted);font-weight:600}
+
+    /* Calendar */
+    .cal-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+    .btn{cursor:pointer;border:1px solid var(--border);background:transparent;color:var(--text);border-radius:12px;padding:6px 10px}
+    .btn:hover{background:var(--chip)}
+    .month{font-weight:700}
+    .cal{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
+    .dow{color:var(--muted);font-size:12px;text-align:center}
+    .day{border:1px solid var(--border);border-radius:12px;padding:8px 0;text-align:center;font-size:14px;color:var(--muted)}
+    .day.empty{border-color:transparent;background:transparent}
+    .day.has{color:var(--text);cursor:pointer}
+    .day.has:hover{background:var(--chip)}
+    .day.active{outline:2px solid var(--link); outline-offset:2px}
+    .list a{display:block;padding:8px 10px;border-radius:12px;border:1px solid var(--border);margin:8px 0}
+    .list a:hover{background:var(--chip)}
+    .footer{margin-top:14px;color:var(--muted);font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div>
+        <div class="brand">🚀 AIPM JobHelper</div>
+        <div class="meta" id="status">加载中…</div>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center;">
+        <a href="./latest.md" target="_blank" rel="noreferrer">最新原始 Markdown</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <!-- Left: Calendar + History -->
+      <div class="card">
+        <h2>📅 历史日历</h2>
+        <div class="cal-top">
+          <button class="btn" id="prevMonth">◀</button>
+          <div class="month" id="monthTitle">—</div>
+          <button class="btn" id="nextMonth">▶</button>
+        </div>
+        <div class="cal" id="calendar"></div>
+
+        <h2 style="margin-top:16px;">🗂 最近报告</h2>
+        <div class="list" id="recentList"></div>
+
+        <div class="footer">点击日历日期即可加载当天报告。</div>
+      </div>
+
+      <!-- Right: Content -->
+      <div class="card" id="content"></div>
+    </div>
+
+    <div class="footer">由 GitHub Pages 托管；内容由自动化任务每日更新。</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    const statusEl = document.getElementById('status');
+    const contentEl = document.getElementById('content');
+    const calEl = document.getElementById('calendar');
+    const monthTitleEl = document.getElementById('monthTitle');
+    const recentEl = document.getElementById('recentList');
+
+    const prevBtn = document.getElementById('prevMonth');
+    const nextBtn = document.getElementById('nextMonth');
+
+    let availableDates = new Set();   // "YYYY-MM-DD"
+    let allDates = [];               // sorted desc
+    let viewYear = 0, viewMonth = 0; // month: 0-11
+    let activeDate = "";
+
+    function pad(n){ return String(n).padStart(2,'0'); }
+    function ymd(y,m,d){ return `${y}-${pad(m)}-${pad(d)}`; }
+
+    function parseHashDate(){
+      const h = location.hash || "";
+      const m = h.match(/date=(\d{4}-\d{2}-\d{2})/);
+      return m ? m[1] : "";
+    }
+
+    async function loadHistory(){
+      try{
+        const res = await fetch('./history.json', { cache: 'no-store' });
+        if(!res.ok) throw new Error('history.json missing');
+        const j = await res.json();
+        allDates = Array.isArray(j.dates) ? j.dates : [];
+        availableDates = new Set(allDates);
+      }catch(e){
+        allDates = [];
+        availableDates = new Set();
+      }
+    }
+
+    function setViewTo(dateStr){
+      // dateStr: YYYY-MM-DD
+      const [y,m] = dateStr.split('-').map(x=>parseInt(x,10));
+      viewYear = y;
+      viewMonth = m - 1;
+    }
+
+    function renderRecent(){
+      const top = allDates.slice(0, 10);
+      recentEl.innerHTML = top.length ? "" : `<div class="meta">暂无历史记录</div>`;
+      for(const d of top){
+        const a = document.createElement('a');
+        a.href = `#date=${d}`;
+        a.textContent = d;
+        recentEl.appendChild(a);
+      }
+    }
+
+    function renderCalendar(){
+      // Header: Sun..Sat (你也可以改成一..日)
+      const dows = ["日","一","二","三","四","五","六"];
+      calEl.innerHTML = "";
+      for(const w of dows){
+        const div = document.createElement('div');
+        div.className = "dow";
+        div.textContent = w;
+        calEl.appendChild(div);
+      }
+
+      const first = new Date(viewYear, viewMonth, 1);
+      const firstDow = first.getDay(); // 0=Sun
+      const daysInMonth = new Date(viewYear, viewMonth + 1, 0).getDate();
+
+      monthTitleEl.textContent = `${viewYear}-${pad(viewMonth+1)}`;
+
+      // empty leading
+      for(let i=0;i<firstDow;i++){
+        const div = document.createElement('div');
+        div.className = "day empty";
+        calEl.appendChild(div);
+      }
+
+      // days
+      for(let d=1; d<=daysInMonth; d++){
+        const dateStr = ymd(viewYear, viewMonth+1, d);
+        const div = document.createElement('div');
+        const has = availableDates.has(dateStr);
+        div.className = "day" + (has ? " has" : "");
+        div.textContent = d;
+
+        if(dateStr === activeDate){
+          div.className += " active";
+        }
+
+        if(has){
+          div.addEventListener('click', () => {
+            location.hash = `date=${dateStr}`;
+          });
+        }
+        calEl.appendChild(div);
+      }
+    }
+
+    async function loadReport(dateStr){
+      // dateStr为空则加载 latest
+      try{
+        if(!dateStr){
+          statusEl.textContent = "加载最新内容…";
+          const res = await fetch('./latest.md', { cache:'no-store' });
+          if(!res.ok) throw new Error('latest.md missing');
+          const md = await res.text();
+          contentEl.innerHTML = marked.parse(md);
+          statusEl.textContent = "已加载最新内容";
+          return;
+        }
+
+        statusEl.textContent = `加载 ${dateStr}…`;
+        const res = await fetch(`./reports/${dateStr}.md`, { cache:'no-store' });
+        if(!res.ok) throw new Error(`missing report: ${dateStr}`);
+        const md = await res.text();
+        contentEl.innerHTML = marked.parse(md);
+        statusEl.textContent = `已加载：${dateStr}`;
+      }catch(e){
+        contentEl.innerHTML = `<h1>内容未找到</h1><p>❌ ${e.message}</p>`;
+        statusEl.textContent = "加载失败";
+      }
+    }
+
+    function shiftMonth(delta){
+      const d = new Date(viewYear, viewMonth + delta, 1);
+      viewYear = d.getFullYear();
+      viewMonth = d.getMonth();
+      renderCalendar();
+    }
+
+    async function bootstrap(){
+      await loadHistory();
+      renderRecent();
+
+      // 初次：如果 hash 指定日期，加载那天；否则加载 latest
+      const hashDate = parseHashDate();
+      activeDate = hashDate && availableDates.has(hashDate) ? hashDate : "";
+
+      if(activeDate){
+        setViewTo(activeDate);
+      }else if(allDates.length){
+        // 默认把日历切到最近一条记录所在月份
+        setViewTo(allDates[0]);
+      }else{
+        // 没任何历史：用当前月份
+        const now = new Date();
+        viewYear = now.getFullYear();
+        viewMonth = now.getMonth();
+      }
+
+      renderCalendar();
+      await loadReport(activeDate);
+
+      prevBtn.onclick = () => shiftMonth(-1);
+      nextBtn.onclick = () => shiftMonth(1);
+
+      window.addEventListener('hashchange', async () => {
+        const d = parseHashDate();
+        activeDate = (d && availableDates.has(d)) ? d : "";
+        if(activeDate) setViewTo(activeDate);
+        renderCalendar();
+        await loadReport(activeDate);
+      });
+    }
+
+    bootstrap();
+  </script>
+</body>
+</html>

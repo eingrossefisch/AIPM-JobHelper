@@ -204,40 +204,78 @@ def normalize_date_in_text(text: str, today: str) -> str:
 def save_report(text: str):
     """
     保存报告：
-    - reports/YYYY-MM-DD.md
-    - README.md（覆盖）
-    规则：
-    ✅ 每天只允许一个 md 文件；重复运行就覆盖同一天的文件
-    ✅ 日期按 America/Los_Angeles 计算（避免 Actions 默认 UTC）
+    - reports/YYYY-MM-DD.md              （仓库归档）
+    - docs/latest.md                     （网页展示最新）
+    - docs/reports/YYYY-MM-DD.md         （网页展示历史）
+    - docs/history.json                  （网页日历索引）
+    - README.md（可选，你现在写 text）   （仓库首页）
     """
     text = (text or "").strip()
     if not text:
         print("❌ 内容为空，不保存。")
         return
 
-    # ✅ 修复 #1：真实当天日期（LA时区）
-    today = get_today_str()
-
-    # ✅ 加固：避免 Dify 输出里自带日期写错（例如写成明天）
+    today = get_today_str()  # 你之前已经按 LA 时区实现了这个函数
     text = normalize_date_in_text(text, today)
 
+    # 1) repo 归档
     os.makedirs("reports", exist_ok=True)
-
-    # ✅ 同一天永远只写一个文件，重复运行覆盖
     report_path = os.path.join("reports", f"{today}.md")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(text)
 
-    # ✅ 修复 #2：README 不额外加 header，text 本身已包含 header
+    # 2) docs 最新 + 历史（给 GitHub Pages 用）
+    os.makedirs("docs", exist_ok=True)
+    os.makedirs(os.path.join("docs", "reports"), exist_ok=True)
+
+    with open(os.path.join("docs", "latest.md"), "w", encoding="utf-8") as f:
+        f.write(text)
+
+    with open(os.path.join("docs", "reports", f"{today}.md"), "w", encoding="utf-8") as f:
+        f.write(text)
+
+    # 3) 维护 history.json（记录所有可点击的日期）
+    history_path = os.path.join("docs", "history.json")
+    history = {"dates": []}
+
+    if os.path.exists(history_path):
+        try:
+            with open(history_path, "r", encoding="utf-8") as f:
+                history = json.load(f)
+            if not isinstance(history, dict):
+                history = {"dates": []}
+        except Exception:
+            history = {"dates": []}
+
+    dates = history.get("dates", [])
+    if not isinstance(dates, list):
+        dates = []
+
+    if today not in dates:
+        dates.append(today)
+
+    # 按日期倒序排列
+    dates = sorted(set(dates), reverse=True)
+    history["dates"] = dates
+    history["last_updated"] = today
+
+    with open(history_path, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+
+    # 4) README：你现在的选择是“直接写 text”（OK）
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(text)
 
     print(f"✅ 保存成功：{report_path}")
-    print("✅ README 已更新：README.md")
+    print("✅ docs/latest.md 已更新（网页最新）")
+    print(f"✅ docs/reports/{today}.md 已更新（网页历史）")
+    print("✅ docs/history.json 已更新（日历索引）")
+
 
 
 def main():
-    api_key = env("DIFY_API_KEY")
+    api_key = "app-qG6KfbNcmokiPR9wBSsZxDd9"
+    # api_key = env("DIFY_API_KEY")
 
     if not api_key:
         raise RuntimeError("❌ DIFY_API_KEY 为空：请输入或设置环境变量 DIFY_API_KEY。")

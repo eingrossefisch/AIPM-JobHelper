@@ -52,7 +52,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add README.md reports || true
+            git add README.md reports docs || true
             git commit -m "chore: update daily AIPM report"
             git push
           else
