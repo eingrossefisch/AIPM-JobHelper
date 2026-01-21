@@ -1,0 +1,40 @@
+name: Daily AIPM Report
+
+on:
+  schedule:
+    # 太平洋时间 0:00 (PST) = UTC 08:00
+    # 每天 UTC 08:00 运行
+    - cron: '0 8 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  run-sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 必须有写权限，否则无法更新 README
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        # 使用 3.12 是目前 GitHub Actions 最稳定的选择，完全兼容你的代码
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Execute Script
+        env:
+          DIFY_API_KEY: ${{ secrets.DIFY_API_KEY }}
+        run: python sync_dify.py
+
+      - name: Commit and Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "📝 Auto-update: Daily AIPM Report $(date +'%Y-%m-%d')" || exit 0
+          git push
