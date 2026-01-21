@@ -229,8 +229,8 @@ def save_report(text: str):
         f.write(text)
 
     with open("README.md", "w", encoding="utf-8") as f:
-        header = f"# 🚀 2026 AIPM 暑期实习求职小助手\n\n> 📅 最后更新: {today}\n\n---\n\n"
-        f.write(header + text)
+        # header = f"# 🚀 2026 AIPM 暑期实习求职小助手\n\n> 📅 最后更新: {today}\n\n---\n\n"
+        f.write(text)
 
     print(f"✅ 保存成功：{report_path}")
     print("✅ README 已更新：README.md")
