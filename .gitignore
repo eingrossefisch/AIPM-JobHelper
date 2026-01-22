@@ -1,5 +1,4 @@
 # 运行产物：本地不提交，交给 GitHub Actions 生成
 README.md
-reports/
 docs/latest.md
 docs/history.json
