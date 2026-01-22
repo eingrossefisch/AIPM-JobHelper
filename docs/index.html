@@ -8,7 +8,7 @@
     :root{--bg:#0b0f14;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--link:#60a5fa;--border:rgba(255,255,255,.12);--code:rgba(255,255,255,.08);--chip:rgba(255,255,255,.06)}
     @media (prefers-color-scheme: light){:root{--bg:#f6f7fb;--card:#fff;--text:#111827;--muted:#6b7280;--link:#2563eb;--border:rgba(17,24,39,.12);--code:rgba(17,24,39,.06);--chip:rgba(17,24,39,.05)}}
     body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.65}
-    .wrap{max-width:1100px;margin:0 auto;padding:24px}
+    .wrap{max-width:1400px;margin:0 auto;padding:24px}
     .topbar{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:14px 16px;border:1px solid var(--border);border-radius:16px;background:var(--card);position:sticky;top:14px;backdrop-filter:blur(8px);z-index:10}
     .brand{font-weight:700;letter-spacing:.2px}
     .meta{color:var(--muted);font-size:14px}
@@ -38,6 +38,14 @@
     .list a{display:block;padding:8px 10px;border-radius:12px;border:1px solid var(--border);margin:8px 0}
     .list a:hover{background:var(--chip)}
     .footer{margin-top:14px;color:var(--muted);font-size:13px}
+    /* 右侧内容整体字号调小一点 */
+    #content{
+    font-size: 14px;
+    }
+    #content h1{font-size: 22px;}
+    #content h2{font-size: 16px;}
+    #content h3{font-size: 15px;}
+
   </style>
 </head>
 <body>

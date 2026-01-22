@@ -274,8 +274,7 @@ def save_report(text: str):
 
 
 def main():
-    api_key = "app-qG6KfbNcmokiPR9wBSsZxDd9"
-    # api_key = env("DIFY_API_KEY")
+    api_key = env("DIFY_API_KEY")
 
     if not api_key:
         raise RuntimeError("❌ DIFY_API_KEY 为空：请输入或设置环境变量 DIFY_API_KEY。")
