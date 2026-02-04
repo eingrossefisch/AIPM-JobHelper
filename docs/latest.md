@@ -1,37 +1,36 @@
-# 🚀 2026 AIPM 暑期实习求职小助手 (PDT: 2026-02-03)
+# 🚀 2026 AIPM 暑期实习求职小助手 (PDT: 2026-02-04)
 
 ## 1️⃣ 岗位雷达
 | 公司 | 职位名称 | 地点 | 开放时间/状态 | 投递链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **阿里巴巴** | 2026届应届生招聘/暑期实习 (含AI、产品类) | 全国/多地 | ✅ 已开启 (8月5日发布) | [点击投递](https://careers.aliyun.com/campus/home) |
-| **百度** | AI产品经理（功能方向）- ACG | 北京 | ✅ 进行中 (12-25更新) | [点击投递](https://talent.baidu.com/jobs/list?recruitType=INTERN) |
-| **百度** | AI产品经理（策略方向）- ACG | 北京 | ✅ 进行中 (12-22更新) | [点击投递](https://talent.baidu.com/jobs/list?recruitType=INTERN) |
-| **字节跳动** | AI产品经理实习生-国际化广告创意与品牌 | 北京 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591364235553343797) |
-| **字节跳动** | AI产品实习生-TRAE (AI编程Agent) | 上海 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293) |
-| **字节跳动** | AI产品实习生-风控 (大模型应用) | 深圳 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520172445747461) |
-| **字节跳动** | 产品实习生（AI电商）- TikTok Shop | 北京 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591505987386362117) |
-| **字节跳动** | Data AML - AI产品实习生 (模型精调) | 上海/多地 | ✅ 进行中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7551317958040717586) |
-| **字节跳动** | RAG产品实习生-Data AML | 上海 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293) |
-| **字节跳动** | AI大模型产品实习生（飞书文档） | 深圳 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520172445747461) |
-| **字节跳动** | AI产品经理实习生-Coze | 深圳 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520172445747461) |
-| **字节跳动** | AI多模态音视频产品实习生 | 北京 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591505987386362117) |
+| **字节跳动** | AI产品经理实习生-国际化广告创意与品牌 | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591364235553343797) |
+| **字节跳动** | AI产品实习生-开发者服务 | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593021539598928133) |
+| **字节跳动** | AI产品实习生-风控 | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520172445747461) |
+| **字节跳动** | AI产品实习生-TRAE (AI编程产品) | 上海 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293) |
+| **字节跳动** | 产品实习生（AI电商）-TikTok Shop | 北京 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591505987386362117) |
+| **字节跳动** | AI产品实习生-Data AML (机器学习中台) | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7472624703070554386) |
+| **字节跳动** | AI产品实习生（模型精调） | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7551317958040717586) |
+| **字节跳动** | RAG产品实习生-Data AML | 上海 | ✅ 进行中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293) |
+| **字节跳动** | AI应用产品实习生-抖音电商 | 上海/北京 | ✅ 进行中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591505987386362117) |
+| **百度** | AI产品经理（功能方向） | 北京 | ✅ 进行中 (日常实习) | [点击投递](https://talent.baidu.com/jobs/list?recruitType=INTERN) |
+| **百度** | AI产品经理（策略方向） | 北京 | ✅ 进行中 (日常实习) | [点击投递](https://talent.baidu.com/jobs/list?recruitType=INTERN) |
 
 ---
 
 ## 2️⃣ 面经收集
 | 公司 | 职位方向 | 来源/时间 | 真题摘要 | 详情链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **vivo** | AI产品经理 | 牛客 / 2025-09 | 1. **业务理解**：如何理解“AI与用户产生‘化学反应’”？针对小V助手如何快速识别核心需求？<br>2. **产研协作**：若技术团队认为 **AI 方案**落地难度高，你如何沟通推动？<br>3. **产品观**：如何看待 **AI 技术先进性**与 **用户实际需求**之间的平衡？ | [查看详情](https://www.nowcoder.com/feed/main/detail/4831401ba60b4d5a8f20be947816ad31) |
-| **美团** | AI产品经理 | 牛客 / 2025-09 | 1. **大模型+UGC**：如何利用海量评论数据，通过 **LLM** 为商家洞察经营亮点？<br>2. **算法策略**：在 AI 生成“必吃榜”时，如何平衡 **算法客观性**与人工干预，确保公信力？<br>3. **场景挖掘**：如何利用 AI 优化“适合团建的餐厅”等 **长尾复杂意图**的搜索匹配？<br>4. **工程落地**：如何快速设计并上线一个 **AIGC**（如自动生成探店笔记）的 **MVP** 版本？ | [查看详情](https://www.nowcoder.com/discuss/797086169958739968) |
+| **百度** | AI 产品经理 | 牛客 / 2025-08 | 1. **大模型测评**：如何制定大模型测评维度框架？核心指标有哪些？<br>2. **迭代策略**：从**策略、商业化、功能**三个维度谈产品迭代方向。<br>3. **出海业务**：AI 产品出海时，海外用户核心关注点（如 **数据隐私、本地化适配**）分析。 | [查看详情](https://www.nowcoder.com/discuss/787284347953942528?toCommentId=21924720) |
+| **网易互娱** | 大模型产品经理 | 牛客 / 2025-09 | 1. **幻觉控制**：在观点总结场景下，如何通过产品手段（如 **RAG, Prompt Engineering**）防范幻觉？<br>2. **上线标准**：AI 功能发布的定量指标（如 **准确率、召回率、耗时**）如何设定？<br>3. **业务卡点**：AI 项目落地过程中的主要技术瓶颈与用户价值闭环。 | [查看详情](https://www.nowcoder.com/feed/main/detail/8ccd8e0875af4fa98778ca0cd4807f4b) |
 
 ---
 
 ## 3️⃣ 八股背诵
 | 领域 | 问题 (Q) | PM解答 (A) | 考察点 |
 | :--- | :--- | :--- | :--- |
-| **RAG (检索增强)** | 当 RAG 系统的回答出现“幻觉”或“不相关”时，你会从哪些产品环节进行排查优化？ | **结论**：遵循“数据-检索-生成”三段论排查。通过优化知识库质量、引入多路召回及重排序（Rerank）来降低噪音。<br>**1. 数据层**：检查文档清洗是否到位，是否因为 PDF 解析乱码或 Chunk（分块）过大/过小导致信息丢失。<br>**2. 检索层**：单一向量检索可能理解不到位，应增加关键词检索（传统检索）做“多路召回”，并引入 Rerank 模型对结果进行相关性打分。<br>**3. 提示词层**：在 System Prompt 中强制要求“如果检索内容不相关，请回答不知道”，防止模型强行脑补。 | 考察对 RAG 全链路（Chunking, Embedding, Rerank）的底层逻辑理解与排障思路。 |
-| **Agent (智能体)** | 为什么在 B 端复杂业务中，通常倾向于使用“工作流（Workflow）”而不是让大模型自由发挥（Auto-GPT）？ | **结论**：B 端核心诉求是“确定性”，工作流是将复杂任务拆解为可控的 Sprints。<br>**1. 可预测性**：纯 Agent 容易陷入死循环或由于 Planning 失败导致逻辑跑偏；工作流通过固定节点（Nodes）限制了模型的发散范围。<br>**2. 调试成本**：当结果出错时，工作流能清晰定位是“信息提取”节点还是“逻辑推理”节点出了问题，而单次 Prompt 很难溯源。<br>**3. 人机协作**：工作流支持“Human-in-the-loop”，在关键节点（如合同生成）设置人工确认，满足业务合规要求。 | 考察对模型原生能力与工程化落地（确定性 vs 灵活性）之间的取舍能力。 |
-| **LLM 基础与评测** | 如何向业务方解释大模型的“边界”，并设计一套科学的 AI 产品效果评测指标？ | **结论**：大模型本质是“概率预测”而非“逻辑推理”，评测需兼顾技术指标与业务体感。<br>**1. 认知同步**：解释模型是“下一个 Token 的概率生成”，无法保证 100% 的事实准确，需建立容错设计。<br>**2. 指标体系**：不要只看准确率，要建立三维评估：**基础指标**（如 ROUGE/BLEU 文本重合度）、**语义指标**（LLM-as-a-judge 模拟专家评分）、**业务指标**（如采纳率、人工修改耗时缩短比例）。<br>**3. 评测集构建**：PM 需主导构建“黄金测试集（Gold Dataset）”，包含典型 Bad Cases，作为模型升级迭代的基准线。 | 考察对 LLM 原理的认知深度，以及作为 PM 构建数据闭环和评测体系的专业性。 |
+| **LLM 原理** | 请用通俗的语言解释大模型（LLM）的工作原理，并说明它的核心能力边界是什么？ | **本质**：大模型是一个极高维度的“成语接龙”概率模型。它通过学习海量文本，预测在给定上文时，下一个字符出现的概率分布。<br>**边界**：1. **幻觉问题**：模型追求语义连贯而非事实准确，会导致“一本正经胡说”；2. **知识截断**：模型的知识停留在训练数据截止日；3. **计算成本**：推理的长短与 Token 消耗及延迟（Latency）成正比。 | 考察对 AI 确定性与随机性的认知，以及作为 PM 如何在不完美的技术之上设计产品。 |
+| **RAG 落地** | 在企业内部构建知识库时，如何权衡使用 RAG（检索增强）还是微调（Fine-tuning）？ | **RAG**：适用于“外挂字典”。优点是数据更新快（分钟级）、成本低、有出处可回溯、不会产生新幻觉，是目前企业落地首选。<br>**微调**：适用于“改变性格”。用于调整模型输出的风格、特定格式（如 JSON）或学习行业极深层的潜规则。缺点是昂贵且知识无法实时更新。<br>**结论**：通常先用 RAG 解决 90% 的知识覆盖，再通过微调解决特定的交互体验。 | 考察对不同技术路线的 Trade-off（权衡）能力，尤其是成本与落地效率的意识。 |
+| **评测体系** | AI 产品的输出具有随机性，你作为 PM 如何定义并衡量产品的“好坏”？ | **方法论**：摆脱“体感评测”，建立标准化的评测流水线。<br>**核心维度**：1. **准确度**：构建黄金题库（Golden Set），对比预期输出与模型输出；2. **召回率**：在 RAG 场景中衡量检索模块是否找对了上下文；3. **性能指标**：首字延迟（TTFT）和每秒 Token 数。<br>**闭环**：利用 LLM-as-a-judge（如用 GPT-4 评测业务模型）实现自动化打分，并辅以人工盲测（Side-by-side）。 | 考察对 AI 产品全生命周期质量管理的专业度，以及如何将模糊的体验转化为可量化的业务指标。 |
 
 ---
 AI生成，仅供参考，不保证准确性和实时性
