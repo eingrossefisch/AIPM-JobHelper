@@ -1,32 +1,33 @@
-# 🚀 2026 AIPM 暑期实习求职小助手 (PDT: 2026-02-28)
+# 🚀 2026 AIPM 暑期实习求职小助手 (PDT: 2026-03-02)
 
 ## 1️⃣ 岗位雷达
 | 公司 | 职位名称 | 地点 | 开放时间/状态 | 投递链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **字节跳动** | AI产品经理实习生-国际化广告创意与品牌 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591364235553343797?recomId=c4b28953-ee0e-11f0-94fe-fa163e53fcf3&sourceJobId=7591364983463250181&spread=B3RU5SF) |
-| **字节跳动** | AI产品实习生-开发者服务 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593021539598928133?recomId=773ae9e9-f5b3-11f0-b31f-08c0eb92e9e4&referral_code=65V7M7W&sourceJobId=7591505987386362117) |
-| **字节跳动** | AI产品实习生-火山方舟 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7600376032197708037?recomId=afbebd60-10b8-11f1-83f4-043f72dbbff8&sourceJobId=7530995069861939463&utm_device=pc&utm_keyword=qz2024pc008&utm_source=SEMbaidu) |
-| **字节跳动** | AI产品实习生-TRAE (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293?recomId=3afd1d45-eda1-11f0-b848-2ed66db3bf64&sourceJobId=7530995069861939463) |
-| **字节跳动** | AI产品实习生-Data AML (ByteIntern) | 北京 | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7472624703070554386?recomId=6f85819d-f00f-11ef-99fb-00163e3cc94f&sourceJobId=7423752694421113126) |
-| **字节跳动** | AI大模型产品实习生-飞书 (ByteIntern) | 北京 | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7600295644015921461?recomId=19f238a2-094f-11f1-9e5f-c286d9dfe25b&sourceJobId=7542736778987800839) |
-| **字节跳动** | AI产品实习生-风控 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520840450181429?recomId=827029f8-ee0d-11f0-9968-fa163e8e3500&referral_code=T3HGV9F&sourceJobId=7532038758469716231) |
+| **字节跳动** | AI产品实习生-Data AML (机器学习中台) | 北京 | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7472624703070554386) |
+| **字节跳动** | AI产品经理实习生-国际化广告创意与品牌 | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591364235553343797) |
+| **字节跳动** | AI产品实习生-火山方舟 (大模型服务平台) | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7600376032197708037) |
+| **字节跳动** | AI产品实习生-TRAE (AI编程产品) | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293) |
+| **字节跳动** | 研发平台AI产品实习生-开发者服务 | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593023333070604549) |
+| **字节跳动** | AI产品实习生-风控 | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520840450181429) |
+| **字节跳动** | AI大模型产品实习生-Data AML | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7544947601502996754) |
+| **字节跳动** | 巨量千川搜索策略产品经理实习生-抖音电商 | Unknown | ✅ 热招中 (ByteIntern) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7597344359052085509) |
 
 ---
 
 ## 2️⃣ 面经收集
 | 公司 | 职位方向 | 来源/时间 | 真题摘要 | 详情链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **百度** | 文心一言-AI产品经理 | 牛客 / 2025-09-15 | 1. **技术评测**：如何利用 **ROUGE**、**BLEU** 指标评估“AI总结”质量？（答案：这些指标基于 n-gram 重合度，优势是客观高效，局限是无法识别语义等价性，需配合人工 Eval 评估准确性、信息密度与幻觉）。<br>2. **RAG应用**：设计“AI搜索”时，如何平衡外部知识与模型生成能力？（答案：采用 **Context Injection**。检索端负责“证据提供”并标注来源，模型端负责“语义对齐与降噪”，通过设定系统提示词强制模型优先参考证据，若冲突则提示未知）。<br>3. **Agent 架构**：Agent 形态与传统“问答式”AI 的核心区别？（答案：核心在于 **Planning** 自主规划与 **Tool-use** 动作执行能力，Agent 具备闭环解决复杂任务的能力而非仅生成文本）。 | [查看详情](https://www.nowcoder.com/discuss/797110591704879104) |
-| **理想汽车** | 智能座舱-AI产品 | 牛客 / 2025-09-10 | 1. **模型决策框架**：如何在“大而慢”和“小而快”的模型间做业务权衡？（答案：构建基于场景频次的决策树。高频简单需求用小模型降低成本与响应时延；长尾复杂需求路由至大模型；针对那 20% 的不佳表现，需建立 **Guardrails** 兜底策略或人工干预机制）。<br>2. **数据评测**：大模型数据评测的核心指标及获取方式？（答案：关注 **Pass@k**、**Human Preference (RLHF方向)** 及业务相关指标如 **Correctness** 和 **Hallucination Rate**。通过标注平台进行 A/B Test 或构建金标准测试集获取）。<br>3. **机器学习原理**：请解释有监督与无监督学习的区别及应用。（答案：**Supervised** 需标签数据，用于分类/回归；**Unsupervised** 处理无标签数据，用于聚类/降维。AI 产品中常见于数据清洗与用户画像分群）。 | [查看详情](https://www.nowcoder.com/discuss/795292887301824512) |
+| **美团** | AIGC/本地生活产品 | 牛客 / 2025-03 | 1. **技术原理**：分析模型**幻觉 (Hallucination)** 的产生原因，并给出产品维度的解决方案。<br>2. **参数调优**：解释 **Temperature (温度)** 对模型生成结果的影响，以及在不同业务场景（如客服 vs 创意写作）中如何设置？<br>3. **全流程落地**：如何协调算法与数据团队，完成从**数据标注**、模型训练到 **A/B 测试**的闭环？ | [查看详情](https://www.nowcoder.com/feed/main/detail/e6f2fb28da644b9d816a26117c6639da) |
+| **字节跳动/通用大厂** | Agent/模型应用 | 牛客 / 2025-02 | 1. **架构设计**：设计 **Agent** 的**记忆机制 (Memory)** 时，除了向量数据库检索，如何实现更精准的长期记忆？<br>2. **竞品分析**：从上下文理解与长文档处理角度，对比 **GPT-4o** 与 **Claude 3.5** 的产品力差异。<br>3. **Prompt 工程**：在生图或工作流场景下，如何通过 **Prompt 优化** 保证模型输出的**风格一致性**？ | [查看详情](https://www.nowcoder.com/feed/main/detail/df52b5b96f3b4e1b870000c8885e64a8) |
 
 ---
 
 ## 3️⃣ 八股背诵
 | 领域 | 问题 (Q) | PM解答 (A) | 考察点 |
 | :--- | :--- | :--- | :--- |
-| **RAG 落地** | 在知识库场景下，如何决定使用 RAG（检索增强生成）还是微调 (Fine-tuning)？ | **结论**：首选 RAG，只有在需要模型学习特定“语气”或“深层垂直领域逻辑”时才考虑微调。<br>**原理**：RAG 相当于给模型配了一个“实时图书馆”，解决事实性错误（幻觉）效果立竿见影；微调相当于让模型“闭卷重学”，数据更新慢且成本极高。<br>**PM权衡**：RAG 建设成本低、数据可追溯且支持秒级更新；微调则能缩短 Prompt 长度节省 Token，但无法保证事实准确。 | 考察对 LLM 幻觉治理、数据时效性与落地成本的权衡决策能力。 |
-| **Agent 设计** | 为什么大模型 Agent 会陷入“复读”或死循环？如何从产品侧优化？ | **结论**：核心是“规划 (Planning)”能力的失效，模型在反思环节无法识别任务已陷入僵局。<br>**PM解法**：<br>1. **逻辑前置**：将复杂的“黑盒”决策拆解为标准的 SOP 流程图（Workflow）；<br>2. **强制熔断**：在工程侧设置最大执行轮数（Max Iterations）和人工介入点（Human-in-the-loop）；<br>3. **反馈增强**：提供更明确的“失败反馈”，告诉 Agent 哪些路径是走不通的。 | 考察对 Agent 自主性风险的预见性，以及对复杂流程（Task Planning）的控制力。 |
-| **模型评测** | 作为一个 AIPM，你如何构建一套评估大模型表现的“金标准”？ | **结论**：拒绝盲目依赖公开榜单，必须建立业务私有的“黄金评测集（Golden Dataset）”。<br>**构建要点**：<br>1. **覆盖度**：从用户真实日志中抽取 500-1000 条典型 Query，覆盖各种边界 case；<br>2. **多维打分**：引入准确性（Factuality）、流畅度（Fluency）和业务转化指标（如点击率）；<br>3. **自动化 vs 人工**：先用更强模型（如 GPT-4o）作为裁判初步打分，关键环节引入专家人工审核。 | 考察对 AI 产品质量确定性的把控手段，避免研发“盲目调优”。 |
+| **知识检索 (RAG)** | 既然现在模型上下文（Context Window）已经支持百万级，为什么还需要 RAG？ | **结论**：长窗口不能完全替代 RAG，两者是“外挂存储”与“在线缓存”的关系。<br>**1. 成本与效率**：将百万 Token 全部塞进 Context 会导致推理成本极高，且首字响应延迟（TTFT）大幅增加；RAG 只检索最相关的几千字，又快又省钱。<br>**2. 数据新鲜度**：RAG 仅需更新向量库即可实现秒级知识更新；长窗口仍需依赖静态输入。<br>**3. 准确性**：长窗口存在“中间信息丢失（Lost in the Middle）”问题，模型对超长文本中间段落的理解力会下降。 | 考察对 **Token 成本**、**响应延迟** 以及模型长文本处理局限性的深刻理解。 |
+| **底层原理 (LLM)** | 为什么大模型会出现“幻觉”？作为产品经理有哪些典型的工程优化手段？ | **结论**：幻觉源于 LLM “概率预测下个字”的本质，它追求文本概率上的“通顺”而非逻辑上的“事实”。<br>**1. 产生原因**：训练数据中存在错误/矛盾、模型压缩导致的记忆损失，或是面对知识真空时的“过度联想”。<br>**2. 工程对策**：<br>- **RAG (检索增强)**：给模型配字典，强制其“看书说话”并标注引用来源。<br>- **Prompt Engineering**：在提示词中加入“如果你不知道，请回答不知道”或指定推理步骤（CoT）。<br>- **Self-Correction**：让模型生成后自检，或引入专门的 Reviewer 模型进行二次核验。 | 考察对 **模型黑盒属性** 的认知，以及通过工程化手段（而非重训模型）解决业务问题的能力。 |
+| **任务编排 (Agent)** | 为什么在 B 端业务中，往往推荐“固定 Workflow”而不是“全自主 Agent”？ | **结论**：B 端核心诉求是“确定性”，而全自主 Agent 的路径具有高度不可预测性。<br>**1. 可控性 (Control)**：Agent 自主规划容易陷入死循环或产生非预期结果；Workflow 通过节点化设计，确保 AI 在既定轨道内运行。<br>**2. 调试与运维**：Workflow 失败时能精准定位是哪个环节（如插件调用、Prompt 失效）出错；Agent 失败像黑盒，极难复现和修复。<br>**3. 用户预期管理**：固定流程能给用户稳定的心理预期，降低因 AI “自由发挥”导致的投诉风险。 | 考察对 **业务落地可靠性** 的权衡，以及对 Agent 规划（Planning）能力的局限性认知。 |
 
 ---
 AI生成，仅供参考，不保证准确性和实时性
