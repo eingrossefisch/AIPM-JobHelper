@@ -1,34 +1,55 @@
-# 🚀 2026 AIPM 暑期实习求职小助手 (PDT: 2026-03-13)
+# 🚀 2026 AIPM 暑期实习求职小助手 (PDT: 2026-03-14)
 
 ## 1️⃣ 岗位雷达
 | 公司 | 职位名称 | 地点 | 开放时间/状态 | 投递链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **字节跳动** | AI产品经理实习生-国际化广告创意与品牌 (ByteIntern) | Unknown | ✅ 进行中 (2027届转正) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591364235553343797?recomId=c4b28953-ee0e-11f0-94fe-fa163e53fcf3&sourceJobId=7591364983463250181&spread=B3RU5SF) |
-| **字节跳动** | AI产品实习生-TRAE (ByteIntern AI编程) | Unknown | ✅ 进行中 (2027届转正) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293?recomId=3afd1d45-eda1-11f0-b848-2ed66db3bf64&sourceJobId=7530995069861939463) |
-| **字节跳动** | AI产品实习生-风控 (ByteIntern) | Unknown | ✅ 进行中 (2027届转正) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520840450181429?recomId=827029f8-ee0d-11f0-9968-fa163e8e3500&referral_code=T3HGV9F&sourceJobId=7532038758469716231) |
-| **字节跳动** | AI产品实习生-开发者服务 (ByteIntern) | Unknown | ✅ 进行中 (2027届转正) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593021539598928133?recomId=773ae9e9-f5b3-11f0-b31f-08c0eb92e9e4&referral_code=65V7M7W&sourceJobId=7591505987386362117) |
-| **字节跳动** | 云与AI解决方案实习生-火山引擎 (ByteIntern) | Unknown | ✅ 进行中 (2027届转正) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7612569660920023349?recomId=cc9d7f39-1a8f-11f1-8a4f-fa163ef1de73&referral_code=EPDMFRJ&sourceJobId=7530995069509503239) |
-| **字节跳动** | AI产品实习生-Data AML | 北京 | ✅ 进行中 (2027届) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7472624703070554386?recomId=6f85819d-f00f-11ef-99fb-00163e3cc94f&sourceJobId=7423752694421113126) |
-| **字节跳动** | 大模型产品实习生-火山引擎 | Unknown | ✅ 进行中 (2027届) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7613681606277040389?recomId=1f3c9720-1add-11f1-a403-0c42a1a84b32&sourceJobId=7533528451502328071&utm_device=pc&utm_keyword=pc202303098&utm_source=SEMbaidu) |
-| **字节跳动** | AI产品经理（多维表格）-飞书 | 北京/Unknown | ✅ 进行中 (2026届) | [点击投递](https://jobs.bytedance.com/campus/position/detail/7532445955419212040) |
-| **字节跳动** | AI产品经理-开发者服务 (Agent产品Aime) | Unknown | ✅ 进行中 (2026届) | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7532441239259760904?recomId=11bb96ea-76a9-11f0-a811-82dee98b8d90&sourceJobId=7533528522607806728) |
+| **字节跳动** | AI产品经理实习生-国际化广告创意与品牌 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591364235553343797?recomId=c4b28953-ee0e-11f0-94fe-fa163e53fcf3&sourceJobId=7591364983463250181&spread=B3RU5SF) |
+| **字节跳动** | AI产品实习生-开发者服务 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593021539598928133?recomId=773ae9e9-f5b3-11f0-b31f-08c0eb92e9e4&referral_code=65V7M7W&sourceJobId=7591505987386362117) |
+| **字节跳动** | AI产品实习生-TRAE (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293?recomId=3afd1d45-eda1-11f0-b848-2ed66db3bf64&sourceJobId=7530995069861939463) |
+| **字节跳动** | AI产品实习生-Data AML (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7472624703070554386?recomId=6f85819d-f00f-11ef-99fb-00163e3cc94f&sourceJobId=7423752694421113126) |
+| **字节跳动** | 产品设计实习生（AI方向）-飞书设计 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7613312932672719157?recomId=1bdafdf9-1a2b-11f1-a403-0c42a1a84b32&sourceJobId=7611449940598638901&spread=B3RU5SF) |
+| **字节跳动** | AI产品实习生（AM智能运营）-TikTok Shop (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7615148164682647813?recomId=8f45fc3a-1e6f-11f1-a403-0c42a1a84b32&sourceJobId=7591373199684061493&spread=2WR32EM) |
+| **字节跳动** | AI产品设计（创意工程方向）实习生-TikTok (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7611744228109289781?recomId=bf59beb2-1e29-11f1-b6eb-00163e075c0f&sourceJobId=7547989395987613970) |
+| **字节跳动** | AI产品实习生-风控 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520840450181429?recomId=827029f8-ee0d-11f0-9968-fa163e8e3500&referral_code=T3HGV9F&sourceJobId=7532038758469716231) |
+| **字节跳动** | AI战略实习生-火山引擎 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7613298450784438533?recomId=9019c16b-1a5d-11f1-8a4f-fa163ef1de73&sourceJobId=7296440558658406665) |
 
 ---
 
 ## 2️⃣ 面经收集
 | 公司 | 职位方向 | 来源/时间 | 真题摘要 | 详情链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **网易互娱** | 大模型产品经理 | 牛客 / 2025-Q3 | 1. **大模型幻觉**：在使用大模型进行观点总结时，如何有效防范“一本正经胡说八道”或信息篡改？<br>2. **项目深挖**：介绍项目中大模型应用的职责，如何通过 **Prompt Engineering** 提升关键成果？<br>3. **策略优化**：如何平衡总结的“完整性”与“简洁性”？ | [查看详情](https://www.nowcoder.com/feed/main/detail/8ccd8e0875af4fa98778ca0cd4807f4b) |
-| **联想** | AI产品经理 | 牛客 / 2025-10 | 1. **岗位认知**：深度理解 **AI PM** 与传统项目/产品经理的区别（侧重模型确定性 vs 逻辑确定性）。<br>2. **技术边界**：当用户需求与当前模型 **技术实现能力** 冲突时，你作为 PM 如何协调与妥协？<br>3. **行业洞察**：评价目前市面主流的 AI 产品，并给出对联想现有 AI 硬件/软件结合点的改进建议。 | [查看详情](https://www.nowcoder.com/feed/main/detail/a085e0af626a4c96aa6373e7a9a85f50) |
+| **百度** | 文心一言-AI产品经理 | 牛客 / 2025-09 | 1. **评估评测**：AI总结功能的量化指标有哪些？如何结合 **ROUGE/BLEU** 等自动评测指标与主观感受？<br>2. **技术落地**：用PM语言解释 **RAG** 原理，并探讨在 AI 搜索中如何平衡“外部知识”与“模型生成能力”？<br>3. **决策框架**：高质量/高成本/低速模型 vs. 中质量/低成本/高速模型，如何构建线上服务的模型选择决策逻辑？ | [查看详情](https://www.nowcoder.com/discuss/797110591704879104) |
+| **美团** | AI产品经理（笔面结合） | 牛客 / 2025-03 | 1. **模型调优**：如何理解大模型的 **Temperature**（温度值）参数对输出多样性与确定性的影响？<br>2. **风险控制**：大模型产生 **Hallucination**（幻觉）的根本原因是什么？作为 PM 在产品设计中如何规避幻觉带来的业务风险？<br>3. **提示词工程**：如何设计产品功能引导非专业用户写出高质量 **Prompt** 以释放模型能力？ | [查看详情](https://www.nowcoder.com/feed/main/detail/e6f2fb28da644b9d816a26117c6639da) |
+
+---
+
+### 💡 专家核心考点深度解析（基于上述真题）
+
+**1. 关于百度“评估评测”问题的参考回答：**
+*   **客观指标**：**ROUGE** 侧重召回率（主要看参考摘要中有多少内容出现在生成摘要中），**BLEU** 侧重精确率。它们的优势是低成本、可自动化大规模评测，局限性是无法理解语义一致性和逻辑准确性。
+*   **PM 综合判断**：采用“三位一体”评估体系：① 自动化评测（基础线）；② **LLM-as-a-Judge**（利用更高级的模型如 GPT-4 对生成结果进行语义对齐打分）；③ 人工抽样盲测（确定最终体验）。
+
+**2. 关于百度“模型选择决策框架”的参考回答：**
+*   **分层服务策略**：
+    *   **场景敏感度**：高价值/严谨场景（如医疗、代码、周报生成）强制调用 A 模型。
+    *   **用户分层**：付费/核心用户分配 A 模型，普通/免费用户默认 B 模型。
+    *   **首字延迟（TTFT）优先**：对于对话类交互，可先用小模型生成占位语或初步指令，后台异步调用大模型进行重写校对。
+
+**3. 关于美团“幻觉（Hallucination）规避”的参考回答：**
+*   **原因分析**：大模型本质是基于概率的“下一个 Token 预测”，缺乏真实的逻辑推导与实时事实库。
+*   **产品侧规避**：
+    *   **引入 RAG**：通过外部知识库（向量数据库）强制模型在指定上下文内回答，减少“瞎编”。
+    *   **CoT 引导**：通过 Prompt 强制模型“Step by Step”思考，通过中间步骤降低逻辑跳跃带来的幻觉。
+    *   **交互约束**：在 UI 界面增加来源引用（Citation）标注，或对不确定性高的回答增加“风险提示”。
 
 ---
 
 ## 3️⃣ 八股背诵
 | 领域 | 问题 (Q) | PM解答 (A) | 考察点 |
 | :--- | :--- | :--- | :--- |
-| **RAG (检索增强)** | 面对垂直行业知识库，为什么优先选 RAG 而不是微调 (Fine-tuning)？ | **结论**：RAG 相当于“开卷考试”，微调相当于“知识内化”。<br>**1. 准确性与时效性**：RAG 可以实时挂载最新文档，且能通过溯源码（Source）消除幻觉；微调后的知识会随时间过时且不可回溯。<br>**2. 成本与门槛**：RAG 只需构建向量索引（Embedding），成本低且对算力要求极小；微调需要高质量语料和持续的 GPU 计算开销。<br>**3. 权限控制**：RAG 可以在检索层做企业级的权限隔离，微调无法精准控制模型“忘记”某部分知识。 | 考察对业务场景中“知识更新频率”与“落地成本”的权衡能力。 |
-| **Agent / 工作流** | 设计 AI Agent 时，如何决定使用“预设工作流 (Workflow)”还是“模型自主规划 (Planning)”？ | **核心逻辑**：看任务的**确定性**与**容错度**。<br>**1. 预设工作流**：适用于标准 SOP 场景（如财务报销、合同审核）。优点是结果可预期、极度稳定；缺点是无法处理边界外的突发情况。<br>**2. 自主规划**：适用于复杂且开放的场景（如竞品调研、创意策划）。优点是上限高，能拆解复杂目标；缺点是由于“思维链 (CoT)”的随机性，容易陷入死循环且 Token 消耗极大。<br>**PM 策略**：现阶段大厂多采用“半自动化”模式，即关键节点用 Workflow 锁死，中间环节允许模型发挥。 | 考察对“系统稳定性”与“AI 灵活性”边界的把控能力。 |
-| **工程优化 / UX** | 如何解决大模型响应慢（高延迟）给用户带来的负面体验？ | **结论**：采用“技术补偿 + 心理建设”的双重策略。<br>**1. 技术端（后端）**：开启 **Streaming（流式输出）** 让用户即刻看到首字；引入 **RAG 缓存**，对高频问题直接返回结果；采用 **异步处理 + Webhook 通知**（如长文生成）。<br>**2. 产品端（前端）**：设计**渐进式披露**（类似分步拆解任务进度）；使用**模拟对话感的动效**降低焦虑；设计“AI 正在思考...”的占位符或中间过程展示，增加透明度。 | 考察在技术瓶颈下，通过产品设计手段优化用户体验（UX）的实战能力。 |
+| **Agent 架构** | 相比单智能体（Single-Agent），多智能体系统（Multi-Agent）在产品落地时有哪些核心优势与挑战？ | **结论**：多智能体通过“专家分工”突破单模型的能力边界，适合处理端到端的复杂长流程。<br>**核心优势**：<br>1. **并行效率**：单体只能串行，多体可并行处理子任务（如一边搜集资料一边生成大纲），提升系统吞吐。<br>2. **鲁棒性**：通过智能体间的“交叉校验”和“投票机制”降低单点幻觉风险，提高任务成功率。<br>3. **模块化扩展**：产品迭代时可只升级某个“专家智能体”（如把搜索模块换成更强的版本），而不影响整体流程。<br>**核心挑战**：<br>1. **成本飙升**：多轮通信意味着成倍的 Token 消耗。<br>2. **响应延迟**：Agent 之间的协作与推理会显著增加首字响应时间（TTFT）。<br>3. **协作一致性**：容易出现 Agent 间理解偏差或陷入“循环推诿”的逻辑死循环。 | 考察对复杂业务场景的拆解能力，以及对算力成本与用户体验（延迟）的平衡意识。 |
+| **AI 评测** | 作为一个 PM，你如何定义 AI 产品的“好坏”？如何构建科学的评测体系？ | **结论**：不能依赖模型方的 Benchmark，必须构建业务相关的“黄金数据集（Golden Set）”。<br>**评测维度**：<br>1. **算法指标**：关注准确率、召回率、幻觉率以及推理的 Latency（延迟）。<br>2. **业务指标**：关注任务完成率（Task Success Rate）、端到端转化率、以及相比人工处理的降本比例。<br>3. **主观评估**：采用 Side-by-Side (SbS) 盲测，让用户或专家在不知道模型名的情况下对输出打分。<br>**评测手段**：<br>1. **自动化评测**：利用 GPT-4 等更强的模型作为裁判（LLM-as-a-judge）进行初步筛选。<br>2. **回归测试**：每次更新 Prompt 或模型版本，必须在 Golden Set 上运行，确保核心能力不倒退。 | 考察对 AI 不确定性特征的理解，以及如何通过数据驱动闭环来优化产品质量。 |
+| **工程实现** | 让模型通过 Tool Call（工具调用）和让其写 Python 代码运行（Code Interpreter）来解决问题，产品逻辑上有何区别？ | **结论**：Tool Call 是“按图索骥”，确定性高；Code Interpreter 是“现场发挥”，灵活性强。<br>**对比逻辑**：<br>1. **确定性与安全**：Tool Call 访问的是 PM 预设的 API，结果可控且安全；代码运行需要在隔离的沙箱中执行，风险面较广。<br>2. **适用场景**：Tool Call 适用于标准化业务逻辑（如查库存、订机票）；Code Interpreter 适用于非标准化的数据分析、复杂数学运算或格式转换。<br>3. **容错机制**：Tool Call 失败通常是参数错误，易排查；代码运行失败需要模型具备“自我修复”能力（Self-healing），产品设计需考虑最大重试轮数以控制成本。 | 考察对模型底层交互逻辑的认知，以及在工程实现中如何确保业务的确定性。 |
 
 ---
 AI生成，仅供参考，不保证准确性和实时性
