@@ -1,55 +1,33 @@
-# 🚀 2026 AIPM 暑期实习求职小助手 (PDT: 2026-03-14)
+# 🚀 2026 AIPM 暑期实习求职小助手 (PDT: 2026-03-15)
 
 ## 1️⃣ 岗位雷达
 | 公司 | 职位名称 | 地点 | 开放时间/状态 | 投递链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **字节跳动** | AI产品经理实习生-国际化广告创意与品牌 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591364235553343797?recomId=c4b28953-ee0e-11f0-94fe-fa163e53fcf3&sourceJobId=7591364983463250181&spread=B3RU5SF) |
-| **字节跳动** | AI产品实习生-开发者服务 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593021539598928133?recomId=773ae9e9-f5b3-11f0-b31f-08c0eb92e9e4&referral_code=65V7M7W&sourceJobId=7591505987386362117) |
-| **字节跳动** | AI产品实习生-TRAE (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293?recomId=3afd1d45-eda1-11f0-b848-2ed66db3bf64&sourceJobId=7530995069861939463) |
-| **字节跳动** | AI产品实习生-Data AML (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7472624703070554386?recomId=6f85819d-f00f-11ef-99fb-00163e3cc94f&sourceJobId=7423752694421113126) |
-| **字节跳动** | 产品设计实习生（AI方向）-飞书设计 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7613312932672719157?recomId=1bdafdf9-1a2b-11f1-a403-0c42a1a84b32&sourceJobId=7611449940598638901&spread=B3RU5SF) |
-| **字节跳动** | AI产品实习生（AM智能运营）-TikTok Shop (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7615148164682647813?recomId=8f45fc3a-1e6f-11f1-a403-0c42a1a84b32&sourceJobId=7591373199684061493&spread=2WR32EM) |
-| **字节跳动** | AI产品设计（创意工程方向）实习生-TikTok (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7611744228109289781?recomId=bf59beb2-1e29-11f1-b6eb-00163e075c0f&sourceJobId=7547989395987613970) |
-| **字节跳动** | AI产品实习生-风控 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520840450181429?recomId=827029f8-ee0d-11f0-9968-fa163e8e3500&referral_code=T3HGV9F&sourceJobId=7532038758469716231) |
-| **字节跳动** | AI战略实习生-火山引擎 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7613298450784438533?recomId=9019c16b-1a5d-11f1-8a4f-fa163ef1de73&sourceJobId=7296440558658406665) |
+| **字节跳动** | AI产品经理实习生-国际化广告创意与品牌 (ByteIntern) | Unknown | ✅ ByteIntern 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591364235553343797) |
+| **字节跳动** | AI产品实习生-开发者服务 (ByteIntern) | Unknown | ✅ ByteIntern 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593021539598928133) |
+| **字节跳动** | AI产品经理（多维表格）-飞书 | 北京 | ✅ 进行中 | [点击投递](https://jobs.bytedance.com/campus/position/detail/7532445955419212040) |
+| **字节跳动** | AI产品实习生（AM智能运营）-TikTok Shop (ByteIntern) | Unknown | ✅ ByteIntern 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7615148164682647813) |
+| **字节跳动** | AI产品实习生-TRAE (ByteIntern) | Unknown | ✅ ByteIntern 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293) |
+| **字节跳动** | AI产品实习生-风控 (ByteIntern) | Unknown | ✅ ByteIntern 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520840450181429) |
+| **字节跳动** | AI产品设计（创意工程方向）实习生-TikTok (ByteIntern) | Unknown | ✅ ByteIntern 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7611744228109289781) |
+| **字节跳动** | 云与AI解决方案实习生-火山引擎 (ByteIntern) | Unknown | ✅ ByteIntern 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7612569660920023349) |
 
 ---
 
 ## 2️⃣ 面经收集
 | 公司 | 职位方向 | 来源/时间 | 真题摘要 | 详情链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **百度** | 文心一言-AI产品经理 | 牛客 / 2025-09 | 1. **评估评测**：AI总结功能的量化指标有哪些？如何结合 **ROUGE/BLEU** 等自动评测指标与主观感受？<br>2. **技术落地**：用PM语言解释 **RAG** 原理，并探讨在 AI 搜索中如何平衡“外部知识”与“模型生成能力”？<br>3. **决策框架**：高质量/高成本/低速模型 vs. 中质量/低成本/高速模型，如何构建线上服务的模型选择决策逻辑？ | [查看详情](https://www.nowcoder.com/discuss/797110591704879104) |
-| **美团** | AI产品经理（笔面结合） | 牛客 / 2025-03 | 1. **模型调优**：如何理解大模型的 **Temperature**（温度值）参数对输出多样性与确定性的影响？<br>2. **风险控制**：大模型产生 **Hallucination**（幻觉）的根本原因是什么？作为 PM 在产品设计中如何规避幻觉带来的业务风险？<br>3. **提示词工程**：如何设计产品功能引导非专业用户写出高质量 **Prompt** 以释放模型能力？ | [查看详情](https://www.nowcoder.com/feed/main/detail/e6f2fb28da644b9d816a26117c6639da) |
-
----
-
-### 💡 专家核心考点深度解析（基于上述真题）
-
-**1. 关于百度“评估评测”问题的参考回答：**
-*   **客观指标**：**ROUGE** 侧重召回率（主要看参考摘要中有多少内容出现在生成摘要中），**BLEU** 侧重精确率。它们的优势是低成本、可自动化大规模评测，局限性是无法理解语义一致性和逻辑准确性。
-*   **PM 综合判断**：采用“三位一体”评估体系：① 自动化评测（基础线）；② **LLM-as-a-Judge**（利用更高级的模型如 GPT-4 对生成结果进行语义对齐打分）；③ 人工抽样盲测（确定最终体验）。
-
-**2. 关于百度“模型选择决策框架”的参考回答：**
-*   **分层服务策略**：
-    *   **场景敏感度**：高价值/严谨场景（如医疗、代码、周报生成）强制调用 A 模型。
-    *   **用户分层**：付费/核心用户分配 A 模型，普通/免费用户默认 B 模型。
-    *   **首字延迟（TTFT）优先**：对于对话类交互，可先用小模型生成占位语或初步指令，后台异步调用大模型进行重写校对。
-
-**3. 关于美团“幻觉（Hallucination）规避”的参考回答：**
-*   **原因分析**：大模型本质是基于概率的“下一个 Token 预测”，缺乏真实的逻辑推导与实时事实库。
-*   **产品侧规避**：
-    *   **引入 RAG**：通过外部知识库（向量数据库）强制模型在指定上下文内回答，减少“瞎编”。
-    *   **CoT 引导**：通过 Prompt 强制模型“Step by Step”思考，通过中间步骤降低逻辑跳跃带来的幻觉。
-    *   **交互约束**：在 UI 界面增加来源引用（Citation）标注，或对不确定性高的回答增加“风险提示”。
+| **百度** | 文心一言-AI产品经理 | 牛客 / 2025-09 | 1. **指标评测**：如何利用 **ROUGE**、**BLEU** 指标评估“AI总结”质量？（答案：ROUGE侧重召回，评估参考文本在生成文本中的覆盖程度；BLEU侧重精确度，评估生成文本的流畅性；PM需结合主观评测解决“事实性幻觉”问题）<br>2. **RAG 架构**：解释 **RAG** 原理并平衡“外部检索”与“模型生成”的关系。（答案：通过向量检索找到最相关知识片段作为 Context 喂给模型；平衡点在于置信度阈值：高置信度外部知识优先，通用逻辑由 LLM 自行补全）<br>3. **决策框架**：如何在“大模型/高成本/高质量”与“小模型/低成本/一般质量”间做灰度选型？ | [查看详情](https://www.nowcoder.com/discuss/797110591704879104) |
+| **字节跳动** | AI产品-智能客服 | 牛客 / 2025-03 | 1. **能力整合**：如何重构整合 **ASR/TTS/LLM** 与知识库的语音客服交互？（答案：核心在于降低端到端 Latency，增加语音打断机制，并在 ASR 转写阶段加入业务词库纠偏）<br>2. **Agent 赛道**：如何拆解 **Agent** 平台的对标维度？（答案：从模型底座能力、工具调用 (Tool-use) 丰富度、私有化部署成本、合规安全风险、开发者生态五个维度进行拆解）<br>3. **业务深挖**：针对直播/抖音场景，如何设计 AI 功能提升用户留存或转化。 | [查看详情](https://www.nowcoder.com/feed/main/detail/6d63a7164a0641aabf3fc4e724b9a43a) |
 
 ---
 
 ## 3️⃣ 八股背诵
 | 领域 | 问题 (Q) | PM解答 (A) | 考察点 |
 | :--- | :--- | :--- | :--- |
-| **Agent 架构** | 相比单智能体（Single-Agent），多智能体系统（Multi-Agent）在产品落地时有哪些核心优势与挑战？ | **结论**：多智能体通过“专家分工”突破单模型的能力边界，适合处理端到端的复杂长流程。<br>**核心优势**：<br>1. **并行效率**：单体只能串行，多体可并行处理子任务（如一边搜集资料一边生成大纲），提升系统吞吐。<br>2. **鲁棒性**：通过智能体间的“交叉校验”和“投票机制”降低单点幻觉风险，提高任务成功率。<br>3. **模块化扩展**：产品迭代时可只升级某个“专家智能体”（如把搜索模块换成更强的版本），而不影响整体流程。<br>**核心挑战**：<br>1. **成本飙升**：多轮通信意味着成倍的 Token 消耗。<br>2. **响应延迟**：Agent 之间的协作与推理会显著增加首字响应时间（TTFT）。<br>3. **协作一致性**：容易出现 Agent 间理解偏差或陷入“循环推诿”的逻辑死循环。 | 考察对复杂业务场景的拆解能力，以及对算力成本与用户体验（延迟）的平衡意识。 |
-| **AI 评测** | 作为一个 PM，你如何定义 AI 产品的“好坏”？如何构建科学的评测体系？ | **结论**：不能依赖模型方的 Benchmark，必须构建业务相关的“黄金数据集（Golden Set）”。<br>**评测维度**：<br>1. **算法指标**：关注准确率、召回率、幻觉率以及推理的 Latency（延迟）。<br>2. **业务指标**：关注任务完成率（Task Success Rate）、端到端转化率、以及相比人工处理的降本比例。<br>3. **主观评估**：采用 Side-by-Side (SbS) 盲测，让用户或专家在不知道模型名的情况下对输出打分。<br>**评测手段**：<br>1. **自动化评测**：利用 GPT-4 等更强的模型作为裁判（LLM-as-a-judge）进行初步筛选。<br>2. **回归测试**：每次更新 Prompt 或模型版本，必须在 Golden Set 上运行，确保核心能力不倒退。 | 考察对 AI 不确定性特征的理解，以及如何通过数据驱动闭环来优化产品质量。 |
-| **工程实现** | 让模型通过 Tool Call（工具调用）和让其写 Python 代码运行（Code Interpreter）来解决问题，产品逻辑上有何区别？ | **结论**：Tool Call 是“按图索骥”，确定性高；Code Interpreter 是“现场发挥”，灵活性强。<br>**对比逻辑**：<br>1. **确定性与安全**：Tool Call 访问的是 PM 预设的 API，结果可控且安全；代码运行需要在隔离的沙箱中执行，风险面较广。<br>2. **适用场景**：Tool Call 适用于标准化业务逻辑（如查库存、订机票）；Code Interpreter 适用于非标准化的数据分析、复杂数学运算或格式转换。<br>3. **容错机制**：Tool Call 失败通常是参数错误，易排查；代码运行失败需要模型具备“自我修复”能力（Self-healing），产品设计需考虑最大重试轮数以控制成本。 | 考察对模型底层交互逻辑的认知，以及在工程实现中如何确保业务的确定性。 |
+| **知识库/RAG** | 业务落地时，如何决定用 RAG (检索增强生成) 还是微调 (Fine-tuning)？ | **结论**：优先 RAG，除非需要改变模型的基础技能或输出风格。<br>**对比**：RAG 相当于给模型配“外挂字典”，解决数据实时性、私有化安全及“幻觉”溯源问题，开发成本低；微调相当于“让模型考证”，适合学习特定行业黑话、复杂指令遵循或固定输出格式，但更新慢且数据成本极高。<br>**Trade-off**：知识实时性选 RAG，特定任务表现（如语气转换）选微调。 | 考察对技术路径的选择能力，平衡成本、开发周期与业务收益。 |
+| **评估体系 (Eval)** | 如何科学评测一个 AI 产品的上线标准？如何量化“幻觉”？ | **方案**：构建多维“评估漏斗”。<br>**1. 客观评估**：针对确定性任务（如提取信息），用准确率、召回率、R-Judge 指标。<br>**2. 模型评估 (LLM-as-a-judge)**：用更强的模型（如 GPT-4o）对候选项进行打分或排序。<br>**3. 人工评估**：金标准，进行双盲 A/B Test。<br>**治理幻觉**：设置召回置信度阈值，低于阈值则返回“无法回答”或提示“参考信息不足”。 | 考察对不可预测性系统（Probabilistic System）的质量管理与风险防控。 |
+| **Agentic Workflow** | 为什么在 B 端场景中，Agent 建议采用“SOP 编排”而非“全自主规划”？ | **原因**：全自主 Agent（如 AutoGPT）在复杂任务中不可控，容易产生逻辑幻觉或死循环，且 Token 成本极高。<br>**逻辑**：B 端强调确定性，PM 需将复杂任务拆解为标准的 SOP（标准作业程序），通过“工作流编排”锁定关键路径，AI 仅在特定节点负责内容生成或分类。这属于“人在回路（Human-in-the-loop）”的半自动治理。 | 考察对 Agent 落地确定性（Deterministic）与灵活性（Flexible）的博弈思维。 |
 
 ---
 AI生成，仅供参考，不保证准确性和实时性
