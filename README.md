@@ -3,32 +3,31 @@
 ## 1️⃣ 岗位雷达
 | 公司 | 职位名称 | 地点 | 开放时间/状态 | 投递链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **字节跳动** | AI产品经理（多维表格）- 飞书 | 北京 | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/position/detail/7532445955419212040) |
-| **字节跳动** | AI产品经理实习生-国际化广告创意与品牌 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7591364235553343797?recomId=c4b28953-ee0e-11f0-94fe-fa163e53fcf3&sourceJobId=7591364983463250181&spread=B3RU5SF) |
-| **字节跳动** | AI产品经理实习生（内容生态识别方向）- TikTok (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7618057384311752965?recomId=5b962de8-2487-11f1-b8f3-043f72a6392c&sourceJobId=7538717848903485703) |
-| **字节跳动** | AI产品实习生-开发者服务 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593021539598928133?recomId=773ae9e9-f5b3-11f0-b31f-08c0eb92e9e4&referral_code=65V7M7W&sourceJobId=7591505987386362117) |
-| **字节跳动** | AI产品实习生-风控 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7592520172445747461?recomId=cefac3a8-edc2-11f0-b31f-08c0eb92e9e4&sourceJobId=7533577581754484999) |
-| **字节跳动** | AI产品实习生-TRAE (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7593017196742314293?recomId=77d0580c-ee0e-11f0-9cc3-043f72b42e20&sourceJobId=7591373199684061493&spread=B3RU5SF) |
-| **字节跳动** | AI产品实习生-Data AML (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7472624703070554386?recomId=6f85819d-f00f-11ef-99fb-00163e3cc94f&sourceJobId=7423752694421113126) |
-| **字节跳动** | AI产品设计（创意工程方向）实习生- TikTok (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7611744228109289781?recomId=bf59beb2-1e29-11f1-b6eb-00163e075c0f&sourceJobId=7547989395987613970) |
-| **字节跳动** | 云与AI解决方案实习生-火山引擎 (ByteIntern) | Unknown | ✅ 热招中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7612569660920023349?recomId=cc9d7f39-1a8f-11f1-8a4f-fa163ef1de73&referral_code=EPDMFRJ&sourceJobId=7530995069509503239) |
+| **MiniMax** | AIGC产品经理 (2026届校园招聘实习) | / | ✅ 进行中 | [点击投递](https://vrfi1sk8a0.jobs.feishu.cn/379481/m/position/detail/7507545874206066980) |
+| **百度** | 2026届校园招聘-产品类岗位 (含AIDU计划) | 北京/上海/深圳 | ✅ 热招中 | [点击投递](https://talent.baidu.com/jobs/) |
+| **阿里巴巴** | 阿里星顶尖人才计划 (AI产品与大模型研究) | / | ✅ 进行中 | [点击投递](https://talent.alibaba.com/activity/ali-star?lang=zh) |
+| **小红书** | 产品工程师 (AI应用产品经理方向)-27届实习 | 北京 | ✅ 进行中 | [点击投递](https://job.xiaohongshu.com/intern?referer_code=NUX4SLO4SHA6) |
+| **网易** | AI Agent 产品设计与迭代实习生 | / | ✅ 进行中 | [点击投递](https://hr.163.com/job-detail.html?id=74387&lang=zh) |
+| **字节跳动** | AI产品实习生 - 豆包爱学 (日常/暑期实践) | / | ✅ 进行中 | [点击投递](https://jobs.bytedance.com/campus/m/position/detail/7542736778987800839?recomId=b207ee09-8698-11f0-ba25-fa163e5044b2&sourceJobId=7543243315366971666) |
+| **美团** | AI产品实习生 (食杂零售/交易纠纷方向) | / | ✅ 更新于3月 | [点击投递](https://zhaopin.meituan.com/web/position/detail?jobUnionId=4259265862&highlightType=campus) |
+| **腾讯** | 校园招聘-产品策划/技术研究 (AI相关) | / | ⏳ 流程进行中 | [官网关注](https://join.qq.com/land.html?pageId=10032) |
 
 ---
 
 ## 2️⃣ 面经收集
 | 公司 | 职位方向 | 来源/时间 | 真题摘要 | 详情链接 |
 | :--- | :--- | :--- | :--- | :--- |
-| **字节跳动** | AI产品-智能体 (Agent) | 牛客 / 2025-03-04 | 1. **竞品对比**：**Agent** 与 Siri 等传统语音助手的核心差异（关键点：自主性、规划能力、长期记忆）。<br>2. **逻辑编排**：在跨场景规划中，如何设定工具调用的优先级（如“订票”优于“约饭”的权重逻辑）？<br>3. **异常处理**：设计 **Agent** 执行任务失败（如无票、接口报错）时的兜底方案。<br>4. **落地场景**：针对 **飞书** 办公场景，设计三个核心 AI 功能并论证价值。 | [查看详情](https://www.nowcoder.com/feed/main/detail/74d1e53e3c3649cdaf6ecd3a60d8fec5) |
-| **百度** | AI产品-生成式应用 | 牛客 / 2025-03-04 | 1. **模型评估**：如何对模型输出进行测试和评分？（答案：采用 **ELO评分**、**人类反馈 (RLHF)** 或构建标准测试集体系）。<br>2. **产品优化**：AI 生成 PPT 场景中，有哪些可优化的体验点？（答案：多模态对齐、大纲结构的逻辑校验、**Prompt** 自动补全）。<br>3. **提示词工程**：在学术或生产场景下，如何系统性优化 **Prompt** 以提升复杂任务的成功率？ | [查看详情](https://www.nowcoder.com/feed/main/detail/422a0c5438504804b33885f00929e20e) |
+| **字节跳动** | 抖音-AI产品实习 | 牛客 / 2025-03 | 1. **技术理解**：解释什么是 **MCP** (Model Context Protocol)？<br>2. **产品思维**：你设计的 AI 产品 **北极星指标** 是什么？从 0 到 1 最重要节点有哪些？<br>3. **行业洞察**：评价最近火爆的 **Manus** (通用 Agent) 功能及改进方向。<br>4. **工具应用**：针对 **Coze** (扣子) 的使用体验，提出三个可优化的产品点。 | [查看详情](https://www.nowcoder.com/discuss/652945147314851840) |
+| **美团** | 零售/配送AI产品 | 牛客 / 2025-03 | 1. **业务场景**：若外卖配送 **ETA** (预估到达时间) 模型准确率提升 5%，如何量化其业务价值？<br>2. **供需优化**：作为 PM 如何利用 AI 优化小象超市的 **生鲜库存周转**？<br>3. **技术博弈**：当算法工程师反馈“特征收益不明显”时，你如何说服其继续尝试？<br>4. **战略判断**：在“零售+科技”背景下，AI 应先落地 **C端** 还是 **B端**？为什么？ | [查看详情](https://www.nowcoder.com/discuss/652945147314851840) |
 
 ---
 
 ## 3️⃣ 八股背诵
 | 领域 | 问题 (Q) | PM解答 (A) | 考察点 |
 | :--- | :--- | :--- | :--- |
-| **RAG vs. SFT** | 针对企业私有知识库问答，你会选择 RAG（检索增强生成）还是 SFT（微调）？ | **一句话解释**：RAG 是给模型看“参考书”开卷考试，SFT 是让模型把知识“背下来”闭卷考试。<br>**成本与性能**：RAG 成本低、知识更新快（秒级）、有出处可查，但受限于上下文长度；SFT 成本高、需持续训练、无法解决实时性问题，但能让模型学到特定的语气和复杂格式。<br>**决策逻辑**：知识频繁更新选 RAG；需改变模型回复风格或学习特定领域思维逻辑选 SFT。 | 考察对知识更新效率、成本控制及“幻觉”治理手段的权衡能力。 |
-| **幻觉治理** | 如何在产品层面降低 LLM 的“幻觉”问题，确保输出的准确性？ | **原理逻辑**：幻觉源于模型是基于概率预测下一个词，而非基于事实检索。<br>**产品手段**：1. **RAG 约束**：强制模型仅根据检索到的片段回答，不准发挥；2. **设置拒答**：通过 Prompt 明确要求“不知道就说不知道”；3. **自验证逻辑**：利用双模型校验，一个生成结果，一个负责审核。4. **Citations**：在 UI 界面标注引用来源，由用户最终校验。 | 考察对 LLM 底层局限性的理解及在不可靠技术上构建可靠产品的能力。 |
-| **Agent / Workflow** | 为什么当前企业级 AI 应用更倾向于“Workflow (工作流)”而非纯粹的“Autonomous Agent (自主智能体)”？ | **核心痛点**：纯 Agent（如 AutoGPT）在复杂任务中存在“规划失效”和“死循环”风险，不可控性极高，导致业务侧无法交付。<br>**产品解法**：Workflow 将复杂任务拆解为标准 SOP（标准作业程序），将 LLM 嵌入到确定的节点中。<br>**Trade-off**：Workflow 牺牲了一定的灵活性换取了高确定性（Deterministic），更符合 B 端业务对结果稳定性的要求。 | 考察对业务确定性（Reliability）与 AI 自主性（Autonomy）之间的边界把控。 |
+| **RAG (检索增强生成)** | 既然向量检索能找到相似文档，为什么 RAG 系统还需要专门的 **Re-rank (重排序)** 环节？ | **结论**：向量检索（Vector Search）解决的是“相似度”，而重排序解决的是“精准度”和“业务相关性”。<br>**原理**：第一步向量检索像在大海里撒网，能快速捞出前 100 个相关的鱼；第二步 Re-rank 像用显微镜看，精准选出前 5 条真正能回答用户问题的内容，丢掉无关噪声。<br>**PM 视角**：不加 Re-rank 会导致模型接触到过多干扰信息，产生幻觉；加了 Re-rank 会增加 100-300ms 左右的延迟。 | 考察对 RAG 链路性能（Latency）与回答质量（Quality）平衡的理解。 |
+| **Agent (智能体)** | 在设计 Agent 业务流时，**Function Calling (工具调用)** 报错或超时了怎么办？ | **结论**：Agent 的核心不在于“全自动”，而在于“异常闭环”。<br>**方案**：1. **重试机制**：针对超时进行指数退避重试；2. **兜底策略**：如果工具失效，模型应主动向用户解释原因而非编造假数据；3. **Human-in-the-loop**：关键环节（如涉及扣费、转账）必须增加人工确认（Check-point）。<br>**成本**：多次 Call 工具会急剧消耗 Token，需设置最大迭代次数（Max Loops）防止死循环。 | 考察对复杂 AI 任务流的**健壮性（Robustness）**和风险控制意识。 |
+| **模型选型 (CoT/Reasoning)** | 类似 DeepSeek-R1 或 OpenAI o1 的**慢思考模型（思维链）**，在什么场景下不能给用户用？ | **结论**：对实时交互要求高、逻辑简单、或是需大规模并发的场景不适用。<br>**权衡点**：1. **用户心理**：用户能等 30 秒看一个数学题答案，但不能等 30 秒听一句“你好”；2. **推理成本**：思维链模型会产生大量隐藏的“思考 Token”，推理成本比普通模型高出数倍甚至十倍。<br>**策略**：简单意图识别用小模型，复杂逻辑规划/代码生成才上推理模型。 | 考察对 **Token 经济学**以及不同业务场景对响应速度敏感度的判断。 |
 
 ---
 AI生成，仅供参考，不保证准确性和实时性
